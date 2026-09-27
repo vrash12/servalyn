@@ -1,0 +1,22 @@
+:root {
+  /* Paper, ink, and one loud serval orange. */
+  --paper: #f2ede3;
+  --paper-deep: #e7e0d2;
+  --ink: #141210;
+  --ink-soft: #4d4842;
+  --orange: #ff5b1f;
+  --orange-text: #e84a10; /* Orange for large type on paper (3.3:1). */
+  --orange-deep: #c2410c;
+  --cream: #fbf7ef;
+  --rule: rgba(20, 18, 16, 0.9);
+  --rule-soft: rgba(20, 18, 16, 0.16);
+
+  --font-sans: "Bricolage", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --wrap: 1360px;
+  --gutter: clamp(18px, 3.2vw, 44px);
+  --section: clamp(88px, 11vw, 168px);
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
